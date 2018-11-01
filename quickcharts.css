@@ -6,18 +6,18 @@
 
 /* Header that appears over all the charts */
 hxl-bites hxl-bite-list .list-header {
-  background-color: lightgray;
+  background-color: lightgray !important;
 }
 
-/* Header that appears over all the charts */
+/* Title (text) that appears over all the charts */
 hxl-bites hxl-bite-list .list-header .list-header-title {
-  color: blue;
+  color: blue !important;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Header that appears over one chart */
 hxl-bites hxl-bite .title {
-  background-color: lightgray;
+  background-color: lightgray !important;
 }
 
 /* Title (text) of a chart */
@@ -33,7 +33,7 @@ hxl-bites hxl-bite-list hxl-bite div.description .description-content {
 
 /* Footer of a chart */
 hxl-bites hxl-bite-list hxl-bite .footer {
-  background-color: lightgray;
+  background-color: lightgray !important;
 }
 
 /* Icons in the footer */
