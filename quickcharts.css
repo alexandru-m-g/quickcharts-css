@@ -24,6 +24,8 @@ hxl-bites hxl-bite .title {
 hxl-bites hxl-bite-list hxl-bite .title div.title-content {
   color: blue !important;
   font-family: 'Source Sans Pro', sans-serif;
+  
+  background-color: lightgray !important;
 }
 
 /* Description (text) of a chart */
