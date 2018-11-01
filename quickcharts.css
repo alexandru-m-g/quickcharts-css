@@ -1,8 +1,42 @@
-hxl-bite .title div.title-content {
-  color: blue !important;
+/**
+* NOTES: 
+* - some CSS properties will need the "!important" rule to override the default values
+* - the 3 widgets that appear, we call "bites" or, more rarely, "charts" (which is to be avoided since they're not always "charts")
+*/
+
+// Header that appears over all the charts
+hxl-bites hxl-bite-list .list-header {
+  background-color: lightgray;
 }
 
-hxl-root hxl-bites hxl-bite-list hxl-bite div.description .description-content {
+// Header that appears over all the charts
+hxl-bites hxl-bite-list .list-header .list-header-title {
+  color: blue;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+// Header that appears over one chart
+hxl-bites hxl-bite .title {
+  background-color: lightgray;
+}
+
+// Title (text) of a chart
+hxl-bites hxl-bite-list hxl-bite .title div.title-content {
+  color: blue !important;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+// Description (text) of a chart
+hxl-bites hxl-bite-list hxl-bite div.description .description-content {
   color: blue ;
 }
 
+// Footer of a chart
+hxl-bites hxl-bite-list hxl-bite .footer {
+  background-color: lightgray;
+}
+
+// Icons in the footer
+hxl-bites hxl-bite-list hxl-bite .footer .glyphicon {
+  color: green;
+}
