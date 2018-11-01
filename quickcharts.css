@@ -1,3 +1,8 @@
 hxl-bite .title div.title-content {
-  color: blue
+  color: blue !important;
 }
+
+hxl-root hxl-bites hxl-bite-list hxl-bite div.description .description-content {
+  color: blue ;
+}
+
