@@ -30,7 +30,7 @@ hxl-bites hxl-bite-list hxl-bite .title div.title-content {
 
 /* Hide empty descriptions */
 hxl-bites hxl-bite-list hxl-bite div.description.empty {
-  color: blue ;
+  display: none;
 }
 
 /* Description (text) of a chart */
