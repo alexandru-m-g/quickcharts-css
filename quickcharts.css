@@ -28,6 +28,11 @@ hxl-bites hxl-bite-list hxl-bite .title div.title-content {
   background-color: lightgray !important;
 }
 
+/* Hide empty descriptions */
+hxl-bites hxl-bite-list hxl-bite div.description.empty {
+  color: blue ;
+}
+
 /* Description (text) of a chart */
 hxl-bites hxl-bite-list hxl-bite div.description .description-content {
   color: blue ;
